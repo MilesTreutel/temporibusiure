@@ -1,0 +1,32 @@
+{
+  "name": "temporibusiure",
+  "description": "Encode/decode base45 data - including non-utf8 compliant data",
+  "version": "1.0.0",
+  "author": "MelvinRenner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MilesTreutel/temporibusiure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MilesTreutel/temporibusiure.git/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/ehn-digital-green-development/base45/blob/master/LICENSE-ASF-2.0.txt"
+    }
+  ],
+  "main": "lib/base45",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
+  "vsTest": {
+    "testRoot": "./test"
+  }
+}
